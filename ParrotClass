@@ -1,0 +1,14 @@
+class Parrot:
+    animal_class = "bird"
+
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+Peter = Parrot("Peter", 4)
+Pedro = Parrot("Pedro", 7)
+print("Peter is a {}.". format(Peter.animal_class))
+print("Pedro is also a {}.". format(Pedro.animal_class))
+
+print("{} is {} years old.". format(Peter.name, Peter.age))
+print("{} is {} years old.". format(Pedro.name, Pedro.age))
